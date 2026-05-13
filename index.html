@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Drop2Share</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/svg+xml" href="./drop2share.svg">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+
+</head>
+
+<body>
+
+    <div class="bg-animation">
+        <span></span><span></span><span></span><span></span><span></span>
+    </div>
+
+    <div class="container">
+
+        <div class="app">
+
+            <div class="logo"><img src="./drop2share.svg" alt="logo" width="50"></div>
+
+            <h1>Drop2Share</h1>
+
+            <p class="subtitle">Drag, Drop & Share instantly</p>
+
+            <div class="drop-area" id="dropArea">
+
+                <div class="upload-icon">📁</div>
+
+                <div class="drop-title">Drag & Drop File Here</div>
+
+                <div class="drop-text">or click to browse</div>
+
+                <button id="browseBtn">Browse File</button>
+
+                <input type="file" id="fileInput" hidden>
+
+            </div>
+
+            <div class="progress-box" id="progressBox">
+
+                <div class="progress-text">
+                    <span>Uploading...</span>
+                    <span id="percent">0%</span>
+                </div>
+
+                <div class="progress-bar">
+                    <div class="progress" id="progress"></div>
+                </div>
+
+            </div>
+
+            <div class="result" id="result">
+
+                <div class="success">✅ Upload Complete</div>
+
+                <input type="text" id="link" readonly>
+
+                <button id="copyBtn">Copy Link</button>
+
+                <div id="qrcode"></div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
