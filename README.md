@@ -9,13 +9,18 @@
 </p>
 
 <p align="center">
+    <a href="https://shivam16a.github.io/Drop2share/" target="_blank">
+        <img src="https://img.shields.io/badge/Live_Demo-Visit_Site-2ea44f?style=for-the-badge&logo=githubpages&logoColor=white" alt="Live Demo" />
+    </a>
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
   <img src="https://img.shields.io/badge/Google%20Drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white" alt="Google Drive API" />
   <img src="https://img.shields.io/badge/Google%20Sheets-34A853?style=for-the-badge&logo=googlesheets&logoColor=white" alt="Google Sheets Monitoring" />
 </p>
-
+<p align="center">
+  🔗 <strong>Live Demo:</strong> <a href="https://shivam16a.github.io/Drop2share/">https://shivam16a.github.io/Drop2share/</a>
+</p>
 ---
 
 ## 📌 Abstract & Overview
